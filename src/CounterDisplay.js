@@ -6,7 +6,7 @@ function CounterDisplay()
     const [count] = useContext(CounterContext);
     
     return (
-        <div>
+        <div style = {{marginLeft: '10px'}}>
             Counter: {count}
         </div>
     )
